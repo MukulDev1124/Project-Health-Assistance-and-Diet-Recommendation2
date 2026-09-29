@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 HF_token = os.getenv("HF_TOKEN")
 
-client=OpenAI(base_url="https://router.huggingface.co/v1",api_key=HF_token)
+client=OpenAI(base_url="https://router.huggingface.co/v1",api_key="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")
 
 
 ##---------------------LLM-----------------------------##
